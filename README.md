@@ -1,46 +1,130 @@
-# Getting Started with Create React App
+# V-Gyan Institute Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive website for V-Gyan Institute built with React, TypeScript, and Material-UI.
 
-## Available Scripts
+![V-Gyan Institute](public/images/2148898690.jpg)
 
-In the project directory, you can run:
+## 🎯 Features
 
-### `npm start`
+- **Modern Design**: Clean and responsive UI with Material-UI components
+- **Interactive Elements**: Smooth animations and transitions using Framer Motion
+- **Dynamic Content**: Typewriter effects and animated statistics
+- **Responsive Layout**: Optimized for all screen sizes
+- **WhatsApp Integration**: Direct contact through WhatsApp
+- **Course Management**: Detailed course information and registration
+- **Contact Forms**: Easy-to-use contact forms with validation
+- **Image Gallery**: Showcase of institute facilities and events
+- **Maps Integration**: Location information with interactive map
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Frontend Framework**: React with TypeScript
+- **UI Library**: Material-UI (MUI)
+- **Animations**: Framer Motion
+- **Routing**: React Router
+- **Form Handling**: React Hook Form
+- **Maps**: Google Maps React
+- **Icons**: Material Icons
+- **Type Checking**: TypeScript
+- **Package Manager**: npm/yarn
 
-### `npm test`
+## 📦 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/vgyan.git
+   cd vgyan
+   ```
 
-### `npm run build`
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Project Structure
 
-### `npm run eject`
+```
+vgyan/
+├── public/
+│   ├── images/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Home.tsx
+│   │   ├── About.tsx
+│   │   ├── Courses.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   ├── App.tsx
+│   └── index.tsx
+└── package.json
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🎨 Key Components
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Home**: Landing page with hero section, features, and course highlights
+- **About**: Institute history, achievements, and faculty profiles
+- **Courses**: Comprehensive course listings and details
+- **Contact**: Contact form with WhatsApp integration and location map
+- **Navbar**: Responsive navigation with modern design
+- **Footer**: Contact information and quick links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📱 Responsive Design
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The website is fully responsive and optimized for:
+- Desktop (1200px and above)
+- Tablet (768px to 1199px)
+- Mobile (below 768px)
 
-## Learn More
+## 🔧 Configuration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Environment variables can be configured in `.env` file:
+```env
+REACT_APP_GOOGLE_MAPS_API_KEY=your_api_key
+REACT_APP_WHATSAPP_NUMBER=+919876543210
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📄 Scripts
+
+- `npm start`: Run development server
+- `npm build`: Create production build
+- `npm test`: Run tests
+- `npm run eject`: Eject from Create React App
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Contact
+
+- Website: [v-gyan.com](https://v-gyan.com)
+- Email: contact@v-gyan.com
+- WhatsApp: +919876543210
+
+## 🙏 Acknowledgments
+
+- Create React App
+- Material-UI
+- Framer Motion
+- React Router
+- All our contributors and supporters
